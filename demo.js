@@ -18,7 +18,6 @@ let articleHearts = document.querySelectorAll(".like-glyph");
 
 function likeCallback(e) {
   let heart = e.target;
-  console.log(e.target)
   mimicServerCall()
     .then(function(serverMessage){
       // STEP 2: Uncomment the next 3 lines.
