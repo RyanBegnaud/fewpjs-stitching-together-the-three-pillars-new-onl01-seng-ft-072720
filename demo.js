@@ -39,8 +39,8 @@ function likeCallback(e) {
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
 // this code.
 
-for (let poop of articleHearts) {
-  poop.addEventListener("click", likeCallback);
+for (let heart of articleHearts) {
+  heart.addEventListener("click", likeCallback);
 }
 
 // STEP 4: 
